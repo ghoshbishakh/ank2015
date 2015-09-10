@@ -8,7 +8,10 @@
 	display: none;
 }
 
-
+.event-img {
+  max-width: none;
+  width: 100%;
+}
 
 #sponsors{
 

@@ -110,7 +110,7 @@
                     <hr class="light">
                     <p class="text-faded">Started in the year 2004, Maths and Tech Club was initially conceived with the concept of creating a platform to engender in students fervour for mathematics by emphasising its benefits and the want for logic through a multitude of intriguing challenges. Due to the uniqueness of our area of emphasis and the unending support of our faculty, Maths N Tech Club conquers greater heights with every passing year, as is evident from the grand success of ANK 2013, and also the third edi-tion of the technical magazine Anveshan which has received favourable reviews from a number of national institutes in the field, providing national cognition. The aim is to imbue some gaiety in our intensely banal odd- semester, where students can enhance their aptitude, quench their knowledge for thirst, and have a jovial time. ANK 2014 is conceptuated to take these things into consideration. Coming up with a plethora of events like Simplex, Kryptic, Constructo, Clash of the Titans, Terrorist Takedown etc, this fest guarantees to elevate student aptitude to a new zenith of logic and free-thinking. 
 </p>
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+                    <a href="#" id="getStartedButton" class="btn btn-default btn-xl">Get Started!</a>
                 </div>
             </div>
         </div>
@@ -306,12 +306,13 @@
     // Scroll
     $(document).ready(function() {
 			var controller = $.superscrollorama();
-			// individual element tween examples
-			controller.addTween('#about', TweenMax.from( $('#about'), .6, {css:{background: '#C03C22'}}));
-			controller.addTween('#about', TweenMax.from( $('#aboutAnk'), 1, {css:{opacity: 0,paddingTop: '4%'}}));
-
-
 			var scrollDuration = 200;
+			// individual element tween examples
+			controller.addTween('#aboutAnk', TweenMax.from( $('#about'), .6, {css:{background: '#C03C22'}}));
+			controller.addTween('#aboutAnk', TweenMax.from( $('#aboutAnk'), 1, {css:{opacity: 0,paddingTop: '6%'}}));
+
+
+			
 			controller.addTween('#sponsors', TweenMax.fromTo( $('.service-box'), .25, {css:{opacity:0, width:'80%'}, immediateRender:true, ease:Quad.easeInOut}, {css:{opacity:1, width:'100%'}, ease:Quad.easeInOut}), scrollDuration);
 
 			//alert("hi");
