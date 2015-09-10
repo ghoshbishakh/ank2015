@@ -17,6 +17,9 @@
 }
 
 
+#eventsHeading{
+  padding-top: 2em;
+}
 #bgCanvas{
 
     opacity: .4;
