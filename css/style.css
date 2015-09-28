@@ -37,6 +37,11 @@
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
 }
+
+.eventdesc{
+  opacity: .7;
+  font-size: 1.1em;
+}
 /* PARALLAX */
 .ankBig {
 	max-width: 500px;
