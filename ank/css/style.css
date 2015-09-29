@@ -1,0 +1,153 @@
+.layer{
+
+	margin: 0 auto;
+}
+
+
+#ankBigText{
+	display: none;
+}
+
+.event-img {
+  max-width: none;
+  width: 100%;
+}
+
+#sponsors{
+
+	background: #1a1a1a;
+	color: #fff;
+}
+
+
+#eventsHeading{
+  padding-top: 2em;
+}
+#bgCanvas{
+
+    opacity: .4;
+    overflow: hidden;
+    width: 100%;
+}
+#about {
+  background: #f05f40
+  -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.eventdesc{
+  opacity: .7;
+  font-size: 1.1em;
+}
+
+.navbar-brand.page-scroll > img {
+    margin-top: -15px;
+}
+
+.navbar-default {
+    background-color: rgba(230, 230, 230, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+/* PARALLAX */
+.ankBig {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.layer{
+	max-width: 500px;
+	margin: 0 auto;
+}
+.Pcontainer {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  opacity: .9;
+}
+.scene {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+.Pcontainer {
+  display: none;
+}
+
+#bgCanvas{
+  display: none;
+}
+
+#ankBigText{
+	display: block;
+}
+
+}
+
+.fill {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  left: 5%;
+  top: 5%;
+}
+
+.expand-width {
+  width: 100%;
+}
+
+.border {
+  border: 2px dashed #00FFAA;
+}
+
+.aspect {
+  opacity: 0.2;
+}
+
+.layer:nth-child(1) {
+  opacity: 0.15;
+}
+.layer:nth-child(1) button {
+  -webkit-transform: rotate(150deg);
+}
+
+.layer:nth-child(2) {
+  opacity: 0.30;
+}
+.layer:nth-child(2) button {
+  -webkit-transform: rotate(120deg);
+}
+
+.layer:nth-child(3) {
+  opacity: 0.45;
+}
+.layer:nth-child(3) button {
+  -webkit-transform: rotate(90deg);
+}
+
+.layer:nth-child(4) {
+  opacity: 0.60;
+}
+.layer:nth-child(4) button {
+  -webkit-transform: rotate(60deg);
+}
+
+.layer:nth-child(5) {
+  opacity: 0.75;
+}
+.layer:nth-child(5) button {
+  -webkit-transform: rotate(30deg);
+}
+
+.layer:nth-child(6) {
+  opacity: 0.90;
+}
+.layer:nth-child(6) button {
+}
