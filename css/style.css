@@ -42,6 +42,15 @@
   opacity: .7;
   font-size: 1.1em;
 }
+
+.navbar-brand.page-scroll > img {
+    margin-top: -15px;
+}
+
+.navbar-default {
+    background-color: rgba(230, 230, 230, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
 /* PARALLAX */
 .ankBig {
 	max-width: 500px;
